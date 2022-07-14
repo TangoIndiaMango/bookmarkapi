@@ -1,0 +1,18 @@
+Redirects to ral url
+
+---
+
+
+tags:
+  - Bookmarks
+parameters:
+  - in: path
+    name: short_url
+    required: true
+
+responses:
+  302:
+    description: Redirect parmanent
+
+  400:
+    description: Error
